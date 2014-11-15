@@ -1,0 +1,8 @@
+
+# source command, at current shell context execute, not start a new shell to execute.
+# source eq,alias .
+# use functions in mylib.sh at test.sh, add the line into test.sh.
+# . ./mylib.sh
+
+
+
