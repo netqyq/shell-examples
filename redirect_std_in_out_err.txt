@@ -1,0 +1,13 @@
+./a.out > out.log
+
+./a.out > out.log 2>&1
+# "2>" redirect the std error.
+# "&1" to std output.
+
+
+#  data_stream              dev
+0   std input             keyboard
+1   std output            screen
+2   std err               screen
+3   database connection   
+
