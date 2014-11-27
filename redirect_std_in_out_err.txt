@@ -12,4 +12,5 @@
 1   stdout                screen
 2   stderr                screen
 3   database connection   
+?   stdprn                printer
 
