@@ -8,8 +8,8 @@
 
 ###
 #  data_stream              dev
-0   std input             keyboard
-1   std output            screen
-2   std err               screen
+0   stdin                keyboard
+1   stdout                screen
+2   stderr                screen
 3   database connection   
 
