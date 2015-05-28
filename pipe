@@ -1,0 +1,6 @@
+# 使用 | 来连接进程
+
+# 查看系统中运行的所有进程的名字，不包括shell
+ps -xo comm | sort | uniq | grep -v sh | more
+
+
