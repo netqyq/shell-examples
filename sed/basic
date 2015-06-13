@@ -1,0 +1,9 @@
+1. 替换
+s/pattern/replacement/flags
+  flags:
+    - 一个数字： 表明该模式的第几处应该被替换
+    - g: 替换所有
+    - p: 打印出行内容
+    - w file: 替换的结果写入文件file中
+    
+2. 寻址
