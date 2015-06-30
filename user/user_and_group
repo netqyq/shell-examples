@@ -1,0 +1,5 @@
+# 如果建立服务专用账户则使用/sbin/noloin
+useradd --shell /sbin/nologin nginx
+
+# 将某用户添加到某组
+usermod --append --groups groupname username
