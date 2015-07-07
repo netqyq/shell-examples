@@ -1,0 +1,2 @@
+yum groupinstall "development tools"
+yum -y
