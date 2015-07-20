@@ -1,0 +1,5 @@
+pstree -p PID
+
+pstree -p 6812
+nginx(6812)─┬─nginx(6813)
+            └─nginx(6814)
