@@ -1,3 +1,6 @@
+# 显示所有进程的关系
+pstree -p
+
 pstree -p PID
 
 pstree -p 6812
