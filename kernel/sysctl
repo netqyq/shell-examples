@@ -1,0 +1,6 @@
+# 将net.ipv4.ip_forward置为1，写入配置/etc/sysctl.conf
+sysctl -w net.ipv4.ip_forward=1
+
+# 是配置生效
+sysctl -p
+
