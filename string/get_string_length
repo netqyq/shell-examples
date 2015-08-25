@@ -1,0 +1,10 @@
+使用echo ${#VAR}
+
+
+$VAR="hello"
+
+$ echo ${#VAR}
+
+$ 5
+
+
