@@ -1,0 +1,5 @@
+# 
+pstack pid
+
+# 查看当前进程的线程数
+pstree -p pid
