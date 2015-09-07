@@ -1,2 +1,15 @@
 yum groupinstall "development tools"
+
+# -y yes
 yum -y
+
+# 查看已经安装的组和可用的组，development tools等
+yum grouplist
+
+
+# 挂载本地镜像光盘
+/etc/yum/
+
+[base]
+name=Server
+base
