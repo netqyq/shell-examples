@@ -1,4 +1,4 @@
-yum groupinstall "development tools"
+yum groupinstall "Development Tools" "Development Libaries" -y
 
 # -y yes
 yum -y
