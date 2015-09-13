@@ -1,3 +1,5 @@
+yum install screen
+
 screen命令：
 screen -ls: 显示已经建立的屏幕
 screen: 直接打开一个新的屏幕
