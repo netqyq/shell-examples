@@ -1,0 +1,6 @@
+screen命令：
+screen -ls: 显示已经建立的屏幕
+screen: 直接打开一个新的屏幕
+	Ctrl+a, d: 拆除屏幕
+screen -r ID: 还原回某屏幕
+exit: 退出
