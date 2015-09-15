@@ -1,0 +1,24 @@
+
+# cat /etc/sysconfig/network-scripts/ifcfg-eth0
+DEVICE="eth0"
+BOOTPROTO=static
+ONBOOT=yes
+TYPE=Ethernet
+NM_CONTROLLED="yes"
+IPADDR=192.168.0.33
+NETMASK=255.255.255.0
+
+
+
+# cat /etc/sysconfig/network-scripts/ifcfg-eth0:1
+DEVICE="eth0:1"
+BOOTPROTO=static
+ONBOOT=yes
+TYPE=Ethernet
+NM_CONTROLLED="yes"
+IPADDR=10.1.1.63
+NETMASK=255.255.240.0
+GATEWAY=10.1.0.1
+
+
+service network restart
