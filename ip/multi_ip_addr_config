@@ -21,4 +21,7 @@ NETMASK=255.255.240.0
 GATEWAY=10.1.0.1
 
 
+
+# 注意重启网络服务是比较危险，如果IP地址设置错误导致网络不能启动，会导致SSH远程连接掉线
+
 service network restart
