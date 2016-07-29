@@ -1,0 +1,13 @@
+#!bash/sh
+#functions.new
+
+findit()
+{
+    if [ $# -lt 1 ]
+    then
+        echo "find the file"
+        return 1;
+    fi
+    
+    find . -name $1 print
+}

@@ -1,0 +1,21 @@
+# print global env
+printenv
+
+# print local env
+set
+
+# export to global env
+export GOROOT=/usr/local/go
+
+
+
+
+echo $RANDOM  
+echo $reply  
+echo $REPLY  
+echo $UID  
+echo $GID  
+echo $UID  
+echo $TMOUT  
+echo $SHLVL  
+

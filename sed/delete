@@ -1,0 +1,6 @@
+sed '3d' data7
+sed '2,3d' data7
+sed '/number/d' data7
+
+sed '/line 1/,/line 3/d' line.txt
+# you must match 'line 3', otherwise all data of the rest of file will be delete.

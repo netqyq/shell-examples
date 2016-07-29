@@ -1,0 +1,16 @@
+echo "this is a test" | sed 'p'
+
+sed -n '/number 3/p' data8
+
+sed -n '/1/s/line/lion/p' line.txt
+
+
+# search contains '1' char, and print this line, the replace line with lion.
+sed -n '/1/{p;s/line/lion/p}' line.txt 
+
+# print line number, '='
+sed '=' line.txt
+
+# list line
+sed -n 'l' data9
+

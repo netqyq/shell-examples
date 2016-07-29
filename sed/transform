@@ -1,0 +1,7 @@
+# the only way to treat single character 
+[address]y/inchars/outchars
+
+# requirements
+inchars.len == outchars.len
+
+

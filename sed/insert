@@ -1,0 +1,8 @@
+i - insert
+a - append
+
+# append a line after the last line.
+sed -i  '$a\line last' a.txt
+
+# insert a line before the first line
+sed -i '1i\line head' a.txt

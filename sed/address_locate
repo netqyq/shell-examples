@@ -1,0 +1,7 @@
+- use number
+    sed '2s/dog/cat/' data1
+    sed '2,$/dog/cat/' data1
+- use text pattern
+    /pattern/command
+    sed '/mysql/s/bash/nologin/' /etc/passwd
+
