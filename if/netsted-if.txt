@@ -1,0 +1,21 @@
+if command1
+then 
+    commands
+elif command2
+then
+    more commands
+fi
+
+
+
+if  command1
+then
+    command set 1
+elif    command2
+    command set 2
+elif command3
+    command set 3
+elif command4
+    command set 4
+fi
+

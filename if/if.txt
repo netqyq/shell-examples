@@ -1,0 +1,9 @@
+if {statement}
+then
+    echo "statement's exit status code is 0"
+fi
+
+if date
+then
+    echo "exec date command is success."
+fi
