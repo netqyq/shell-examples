@@ -1,0 +1,17 @@
+test condition
+
+if test condition
+then
+    commands
+fi
+
+
+if [ condition ]
+then 
+    commands
+fi
+
+
+test number
+test string
+test file
