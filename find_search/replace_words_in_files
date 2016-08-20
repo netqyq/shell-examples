@@ -1,0 +1,4 @@
+# from book Linux Shell Scripting Cookbook Second Edition , page 152, chinese version.
+find . -name *.cpp -exec sed -i 's/Copyright/Copyleft/g' \{\} \;
+find . -name *.cpp -exec sed -i 's/Copyright/Copyleft/g' \{\} \+;
+

@@ -1,0 +1,3 @@
+var="This is a line of text"
+
+echo ${var/line/REPLACE}

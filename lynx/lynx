@@ -1,0 +1,8 @@
+# save page as ASCII
+lynx URL -dump > webpage_as_text.txt
+lynx www.baidu.com -dump > baidu_ascii.txt
+
+# save page as text
+lynx -dump http://google.com > plain_text_page.txt
+lynx -dump www.baidu.com > baidu.txt
+

@@ -1,0 +1,2 @@
+seq 5 | tac
+seq 5 | sort -nr

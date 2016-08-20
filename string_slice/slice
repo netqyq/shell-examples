@@ -1,0 +1,8 @@
+#!/bin/bash
+# slice in shell
+string=abcdefghijklmnopqrstuvwxyz
+echo ${string:4}
+echo ${string:4:8}
+echo ${string:(-1)}
+echo ${string:(-2):2}
+

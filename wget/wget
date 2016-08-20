@@ -1,0 +1,23 @@
+
+wget -O file.tar.gz -o log url
+
+
+wget -c
+
+# try 3 times
+wget -t 3
+
+
+# speed limit
+wget --limit-rate 20k url
+
+
+
+
+# username and password, basic httpd authentication.
+
+
+# mirror
+wget --mirror --convert-links example.com
+# or
+wget -r -N -l -k DEPTH URL
