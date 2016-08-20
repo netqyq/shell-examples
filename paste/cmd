@@ -1,0 +1,2 @@
+paste file1.txt  file2.txt
+paste file1.txt  file2.txt -d ","
