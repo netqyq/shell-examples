@@ -1,4 +1,0 @@
-find ./ -name "*" | xargs grep ""
-find ./ -name "' 
-
-locate FILENAME
