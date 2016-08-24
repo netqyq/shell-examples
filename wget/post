@@ -1,0 +1,1 @@
+wget http://example.com/test/submit.php --post-data "host=test-host&user=slynux" -O output.html

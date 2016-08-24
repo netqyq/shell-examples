@@ -1,0 +1,1 @@
+curl http://example.com/test/submit.php -d "host=test-host&user=slynux"
