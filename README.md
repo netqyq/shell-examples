@@ -1,3 +1,12 @@
-shell
+ shell
 =====
-my shell scripts.
+shell scripts library.
+
+### powerful shell commands
+- grep
+- sed
+- awk
+- tr
+- cut
+- sort
+- uniq
