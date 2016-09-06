@@ -1,8 +1,8 @@
- shell
+shell
 =====
-shell scripts library.
+Shell Scripts Library.
 
-### powerful shell commands
+### Powerful Shell Commands
 - grep
 - sed
 - awk
