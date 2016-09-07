@@ -23,7 +23,9 @@ awk '{print $1}' access.log | uniq -c | sort -k1 -nr | head -10
 netstat -ant | grep ^tcp | awk '{stat[$6]++} END{for( i in stat) {print i,stat[i]}}'
 ```
 - tr
-``` echo file | tr -s '[:space:]' ':' ```
+``` 
+echo file | tr -s '[:space:]' ':' 
+```
 - cut
 ``` cut -d":" -f1,3```
 - sort
