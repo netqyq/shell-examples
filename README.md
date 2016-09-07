@@ -1,6 +1,8 @@
 shell
 =====
 Shell Scripts Library.
+license MIT
+
 
 ### Powerful Shell Commands
 - grep
