@@ -23,16 +23,16 @@ awk '{print $1}' access.log | uniq -c | sort -k1 -nr | head -10
 netstat -ant | grep ^tcp | awk '{stat[$6]++} END{for( i in stat) {print i,stat[i]}}'
 ```
 - tr
- ` echo file | tr -s '[:space:]' ':' `
+``` echo file | tr -s '[:space:]' ':' ```
 - cut
- ` cut -d":" -f1,3`
+``` cut -d":" -f1,3```
 - sort
- ` sort -k1 -nr`
+``` sort -k1 -nr```
 - uniq
-`  uniq -c`
+```  uniq -c```
 - ip
- ` ip addr, ip route, ...`
+``` ip addr, ip route, ...```
 - ss
-`  ss -s , ss -ntlp , ss -antp`
+```  ss -s , ss -ntlp , ss -antp```
 - netstat 
-`netstat -antp , netstat -ntlp , netstat -nutp`
+```netstat -antp , netstat -ntlp , netstat -nutp```
