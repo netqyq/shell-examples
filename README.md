@@ -19,5 +19,4 @@ Shell Scripts Library.
 - ss
   ss -s , ss -ntlp , ss -antp
 - netstat 
-  
-netstat -antp , netstat -ntlp , netstat -nutp
+`netstat -antp , netstat -ntlp , netstat -nutp`
