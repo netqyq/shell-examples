@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Reset the root password to blank, so as to prevent the default root password from being used
+# The root password gets reset on instance startup by cloud-init
+
+echo "root:*" | chpasswd -e
