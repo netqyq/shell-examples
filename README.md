@@ -1,10 +1,8 @@
-shell
-=====
-Shell Scripts Library.
-license MIT
+# Shell Scripting Examples. Edit
 
 
-### Powerful Shell Commands
+
+## Powerful Shell Commands
 - grep
 ```
 grep -r -n "main()" .
@@ -60,3 +58,6 @@ lsof -i -n -P
 lsof -i:22
 
 ```
+
+## License
+license MIT
