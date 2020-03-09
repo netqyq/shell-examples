@@ -1,2 +1,0 @@
-# print header info
-curl -I www.baidu.com
